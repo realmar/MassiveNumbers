@@ -5,9 +5,9 @@
 
 
 int main() {
-    massive_int mint(69);
+    BigInt mint(69);
 
-    std::cout << "today's massive int: " << mint << std::endl;
+    std::cout << "today's massive int: " << mint.toString() << std::endl;
 
     return 0;
 }
